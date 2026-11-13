@@ -1,0 +1,50 @@
+/*
+ * Tokens de marca · dirección «Urban Party» (PROPUESTA pendiente de validación,
+ * ver BRAND_GUIDELINES.md §6). Cualquier cambio visual transversal se hace aquí.
+ */
+:root {
+  /* Paleta propuesta */
+  --mv-negro: #171717;
+  --mv-lima: #d7ff3f;
+  --mv-rosa: #ff76b9;
+  --mv-blanco-roto: #f7f7f2;
+
+  /* Derivados de interfaz (no son colores de marca) */
+  --mv-negro-2: #222222;
+  --mv-negro-3: #2e2e2e;
+  --mv-gris-texto-oscuro: #c9c9c2; /* texto secundario sobre negro · 10,9:1 */
+  --mv-gris-texto-claro: #4a4a46; /* texto secundario sobre blanco roto · 8,4:1 */
+  --mv-linea-clara: #deded6;
+  --mv-linea-oscura: #3a3a3a;
+  --mv-error: #b3261e; /* sobre blanco roto · 6,1:1 */
+  --mv-error-oscuro: #ffb4ab; /* sobre negro */
+
+  /* Tipografías propuestas */
+  --mv-font-display: 'Bricolage Grotesque Variable', 'Arial Narrow', system-ui, sans-serif;
+  --mv-font-text: 'Inter Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* Escala */
+  --mv-space-1: 4px;
+  --mv-space-2: 8px;
+  --mv-space-3: 12px;
+  --mv-space-4: 16px;
+  --mv-space-5: 24px;
+  --mv-space-6: 32px;
+  --mv-space-7: 48px;
+  --mv-space-8: 72px;
+
+  --mv-radius-s: 10px;
+  --mv-radius-m: 16px;
+  --mv-radius-l: 24px;
+
+  --mv-gutter: 16px;
+  --mv-max: 1160px;
+
+  --mv-focus: 0 0 0 3px var(--mv-negro), 0 0 0 6px var(--mv-lima);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --mv-gutter: 32px;
+  }
+}
